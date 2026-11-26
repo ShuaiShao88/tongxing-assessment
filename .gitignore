@@ -1,0 +1,15 @@
+# Do not commit participant answers, exports, reports, or secrets.
+*.json
+!examples/mock-*.json
+*.pdf
+*.csv
+*.xlsx
+*.docx
+*.zip
+*.env*
+.DS_Store
+node_modules/
+private/
+participants/
+reports/
+answers/
